@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="./resources/CSS/styles.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./resources/image/vita.png" type="image/x-icon">
+    <title>Coffe & Vita</title>
+  </head>
+
+  <body>
+<!-- Header -->
+    <header>
+      <div class="content">
+        <img id="logo" src="./resources/image/vita.png" alt="logo" height="65px" />
+        <h1 id="logo">Coffe & Vita</h1>
+      </div>
+        <nav class="desktop">
+          <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#location">Our Location</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+<!-- Main Content -->
+    <main class="main-content">
+      <section id="mission">
+        <div class="tagline">
+          <h2>Fill your life with warmth and aroma</h2>
+          <h4>This is the place where you will meet friends, spend a cozy evening together or just be alone with a cup of aromatic drink</h4>
+        </div>
+      </section>
+
+<!-- Menu -->
+      <section id="menu">
+        <div class="text">
+          <h2>Menu</h2>
+          <h4>We are pleased to offer you strong coffee, fragrant tea and author's desserts</h4>
+        </div>
+        <div id="menu-container">
+          <div class="menu">
+            <div class="menu-img">
+              <img src="./resources/image/muthanna-asiri-tgonFBtgEuI-unsplash.jpg" alt="Cup of Coffee" height="300px" />
+            </div>
+            <h4>Coffee</h4>
+          </div>
+          <div class="menu">
+            <div class="menu-img">
+              <img src="./resources/image/brian-suman-CmYJEYBfgTA-unsplash.jpg" alt="Cup of Tea" height="300px" />
+            </div>
+            <h4>Tea</h4>
+          </div>
+          <div class="menu">
+            <div class="menu-img">
+              <img src="./resources/image/slashio-photography-ZG9ggI_pjFw-unsplash.jpg" alt="Donuts" height="300px" />
+            </div>
+            <h4>Desserts</h4>
+          </div>
+        </div>
+      </section>
+
+<!-- Team -->
+      <section class="team-container">
+          <h2>Our Team</h2>
+          <div class="team">
+            <div class="teammate">
+              <img src="./resources/image/craig-mckay-jmURdhtm7Ng-unsplash.jpg" alt="Men's Portret" height="400px" />
+              <h4>Founder</h4>
+              <p>Roberto Bova</p>
+            </div>
+            <div class="teammate">
+              <img src="./resources/image/taylor-deas-melesh-0WTtJ0bhJcw-unsplash.jpg" alt="Women's Portret" height="400px" />
+              <h4>Barista</h4>
+              <p>Monica Benini</p>
+            </div>
+            <div class="teammate">
+              <img src="./resources/image/gama-films-PkbVlqo2IEU-unsplash.jpg" alt="Men's Portret" height="400px" />
+              <h4>Barista</h4>
+              <p>Raoul Placido</p>
+            </div>
+          </div>
+      </section>
+
+<!-- Location -->
+      <section id="location">
+        <div class="location-image">
+          <img src="./resources/image/ruben-ramirez-xhKG01FN2uk-unsplash.jpg" alt="coffee shop" height="300" />
+        </div>
+        <div class="address">
+          <h2>Our Location</h2>
+          <h3>Via della Spiga, 11, 20121, Milano, MI, Italia</h3>
+          <h3>+39 33 3221 1111</h3>
+        </div>
+      </section>
+
+<!-- Footer -->
+      <footer>
+        <div class="footer">
+          <div class="footer-container">
+            <p>© Cofe & Vita 2022 | Created By Julia Kostyukova</p>
+          </div>
+        </div>
+    </footer>
+  </main>
+  </body>
+</html>
